@@ -1,0 +1,117 @@
+@media screen and (max-width: 1000px) {
+  .intro-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+
+  .intro2-section,
+  .intro3-section {
+    background-size: 100%;
+  }
+
+  .inner-container,
+  .inner3-container,
+  .inner2-container img {
+    width: 100%;
+  }
+
+  .main-litrev p {
+    column-count: 2;
+  }
+
+  .discussion-main {
+    height: 29rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .intro-section,
+  .intro2-section {
+    padding: 0;
+  }
+
+  .inner-container,
+  .inner2-container img {
+    padding: 60px;
+  }
+
+  .inner3-container {
+    padding: 10px;
+  }
+
+  .contact-body {
+    padding: 40px;
+  }
+
+  .body-item {
+    padding: 0;
+  }
+
+  .ops-main {
+    flex-direction: column;
+  }
+
+  .ops-main table,
+  .player {
+    width: 100%;
+    margin-bottom: 90px;
+  }
+
+  .main-litrev h1 {
+    font-size: 45px;
+  }
+
+  .main-litrev p {
+    column-count: 1;
+  }
+
+  .disc-container p {
+    columns: 1;
+  }
+
+  .discussion-main {
+    height: 90rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 40px;
+  }
+
+  .slider .imgBx {
+    padding: 40px;
+  }
+
+  .slider .imgBx .content h2 {
+    font-size: 3em;
+  }
+
+  .slider .imgBx .content p {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  .main-litrev p {
+    column-count: 1;
+  }
+
+  .discussion-main {
+    height: 36rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .background {
+    min-height: 130vh;
+  }
+
+  .contact-body {
+    flex-direction: column;
+  }
+
+  .body-item.left {
+    margin-bottom: 30px;
+  }
+}
